@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+    font: 28px cursive  ;
+    color: white;
+   
+}
+/* Header */
+.nav{
+    max-width: 1300px;
+    background-color: cadetblue;
+    margin: 0 auto;
+    padding:10px ;
+    
+    
+}
+.divi{
+    margin-top: 10px;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    float: left;
+}
+.nam {
+  
+float: left; 
+padding: 20px;
+}
+.address{
+    float: right;
+    padding: 20px;
+}
+.address ul{
+
+}
+.address ul li{
+list-style-type: none;
+}
+.address ul li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.address ul li a:hover{
+    background-color:darksalmon;
+    text-decoration: underline;
+    color: blanchedalmond;
+    padding: 5px;
+
+}
+.div-clear
+{
+    clear: both;
+}
+ hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+   box-sizing:border-box;
+    padding: 5px;  
+}
+
+/* personal section */
+.detail{
+    margin-left: 20px;
+    text-align: justify;
+}
+.personal-detail{
+width: 30%;
+float: left;
+}
+.content{
+    width: 70%;
+    float: right;
+  
+}
+
+.common-hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 50PX auto;
+    border-bottom: none;
+    padding: 0;
+}
+
+.divi1{
+    width: 35%;
+    float: left;
+}
+.divi2{
+    width: 35%;
+    float: right;
+}
+
+.footer-design{
+    background-color: black;
+    color: wheat;
+    padding-left: 10px;
+   
+}
+
+.footer-design ul{
+list-style-type: none;
+}
+.footer-design ul li{
+    
+}
+.footer-design ul li a{
+text-decoration: none;
+color: wheat;
+text-align: center;
+
+}
+.footer-design li{
+
+}
